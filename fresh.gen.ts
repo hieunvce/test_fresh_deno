@@ -4,18 +4,28 @@
 
 import config from "./deno.json" assert { type: "json" };
 import * as $0 from "./routes/[name].tsx";
-import * as $1 from "./routes/api/joke.ts";
-import * as $2 from "./routes/index.tsx";
-import * as $$0 from "./islands/Counter.tsx";
+import * as $1 from "./routes/_app.tsx";
+import * as $2 from "./routes/api/joke.ts";
+import * as $3 from "./routes/index.tsx";
+import * as $$0 from "./islands/Carousel.tsx";
+import * as $$1 from "./islands/Counter.tsx";
+import * as $$2 from "./islands/ProductCard.tsx";
+import * as $$3 from "./islands/ThemeChanger.tsx";
+import * as $$4 from "./islands/TotalCartItem.tsx";
 
 const manifest = {
   routes: {
     "./routes/[name].tsx": $0,
-    "./routes/api/joke.ts": $1,
-    "./routes/index.tsx": $2,
+    "./routes/_app.tsx": $1,
+    "./routes/api/joke.ts": $2,
+    "./routes/index.tsx": $3,
   },
   islands: {
-    "./islands/Counter.tsx": $$0,
+    "./islands/Carousel.tsx": $$0,
+    "./islands/Counter.tsx": $$1,
+    "./islands/ProductCard.tsx": $$2,
+    "./islands/ThemeChanger.tsx": $$3,
+    "./islands/TotalCartItem.tsx": $$4,
   },
   baseUrl: import.meta.url,
   config,

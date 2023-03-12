@@ -1,5 +1,15 @@
 {
   "deno.enable": true,
   "deno.lint": true,
-  "editor.defaultFormatter": "denoland.vscode-deno"
+  "editor.defaultFormatter": "denoland.vscode-deno",
+  "editor.suggest.showStatusBar": true,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[postcss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
